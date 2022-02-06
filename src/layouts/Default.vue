@@ -24,18 +24,18 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html"
-                >About</a
+              <router-link class="nav-link px-lg-3 py-3 py-lg-4" to="/about"
+                >About</router-link
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html"
-                >Sample Post</a
+              <router-link class="nav-link px-lg-3 py-3 py-lg-4" to="/post"
+                >Sample Post</router-link
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html"
-                >Contact</a
+              <router-link class="nav-link px-lg-3 py-3 py-lg-4" to="/contact"
+                >Contact</router-link
               >
             </li>
           </ul>
